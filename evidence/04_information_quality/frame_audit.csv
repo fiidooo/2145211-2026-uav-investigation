@@ -1,0 +1,25 @@
+frame_id,target,blur_flag,image_time,reference_time,reference_time_matches,image_label,reference_label,record_origin
+F01,road segment,no,09:00:00,09:00:00,yes,dry,dry,new_synthetic_labels_and_times_R2; archived_screening_flags_preserved
+F02,road segment,no,09:00:00,09:00:00,yes,visible_water,visible_water,new_synthetic_labels_and_times_R2; archived_screening_flags_preserved
+F03,road segment,yes,09:00:00,09:00:00,yes,indeterminate,dry,new_synthetic_labels_and_times_R2; archived_screening_flags_preserved
+F04,road segment,no,09:00:00,08:30:00,no,visible_water,dry,new_synthetic_labels_and_times_R2; archived_screening_flags_preserved
+F05,road segment,no,09:00:00,09:00:00,yes,dry,dry,new_synthetic_labels_and_times_R2; archived_screening_flags_preserved
+F06,road segment,no,09:00:00,09:00:00,yes,visible_water,visible_water,new_synthetic_labels_and_times_R2; archived_screening_flags_preserved
+F07,road segment,yes,09:00:00,09:00:00,yes,indeterminate,dry,new_synthetic_labels_and_times_R2; archived_screening_flags_preserved
+F08,road segment,no,09:00:00,08:30:00,no,visible_water,dry,new_synthetic_labels_and_times_R2; archived_screening_flags_preserved
+F09,road segment,no,09:00:00,09:00:00,yes,dry,dry,new_synthetic_labels_and_times_R2; archived_screening_flags_preserved
+F10,road segment,no,09:00:00,09:00:00,yes,visible_water,visible_water,new_synthetic_labels_and_times_R2; archived_screening_flags_preserved
+F11,road segment,yes,09:00:00,09:00:00,yes,indeterminate,dry,new_synthetic_labels_and_times_R2; archived_screening_flags_preserved
+F12,road segment,no,09:00:00,08:30:00,no,visible_water,dry,new_synthetic_labels_and_times_R2; archived_screening_flags_preserved
+F13,road segment,no,09:00:00,09:00:00,yes,dry,dry,new_synthetic_labels_and_times_R2; archived_screening_flags_preserved
+F14,road segment,no,09:00:00,09:00:00,yes,visible_water,visible_water,new_synthetic_labels_and_times_R2; archived_screening_flags_preserved
+F15,road segment,yes,09:00:00,09:00:00,yes,indeterminate,dry,new_synthetic_labels_and_times_R2; archived_screening_flags_preserved
+F16,road segment,no,09:00:00,09:00:00,yes,visible_water,visible_water,new_synthetic_labels_and_times_R2; archived_screening_flags_preserved
+F17,open field,no,09:00:00,09:00:00,yes,dry,dry,new_synthetic_labels_and_times_R2; archived_screening_flags_preserved
+F18,open field,no,09:00:00,09:00:00,yes,visible_water,visible_water,new_synthetic_labels_and_times_R2; archived_screening_flags_preserved
+F19,open field,yes,09:00:00,09:00:00,yes,indeterminate,dry,new_synthetic_labels_and_times_R2; archived_screening_flags_preserved
+F20,open field,no,09:00:00,08:30:00,no,visible_water,dry,new_synthetic_labels_and_times_R2; archived_screening_flags_preserved
+F21,open field,no,09:00:00,09:00:00,yes,dry,dry,new_synthetic_labels_and_times_R2; archived_screening_flags_preserved
+F22,open field,yes,09:00:00,09:00:00,yes,indeterminate,visible_water,new_synthetic_labels_and_times_R2; archived_screening_flags_preserved
+F23,open field,no,09:00:00,09:00:00,yes,dry,dry,new_synthetic_labels_and_times_R2; archived_screening_flags_preserved
+F24,open field,no,09:00:00,09:00:00,yes,visible_water,visible_water,new_synthetic_labels_and_times_R2; archived_screening_flags_preserved
