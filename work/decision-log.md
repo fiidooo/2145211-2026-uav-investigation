@@ -17,7 +17,18 @@ Keep this file free of names, IDs, grades and private assessment answers. Use it
 - Remaining unknown and most useful next check: The most useful missing evidence would be the underlying images plus location- and time-matched reference observations that can challenge the labels. Consider whether excluding blurred and time-mismatched records makes the remaining sample unrepresentative; the 100% result applies only to the selected subset.
 
 ## Cycle 2
-Use the same fields. Explain how the new evidence connects to cycle 1.
+- Released package and version: ENERGY (Energy and endurance), `NEW-SYNTHETIC-20261105-R2`. Instructor release commit: `a807eead516472a3ff78da65bc369c8b73a5090e`. Retrieved from my fork, `fiidooo/2145211-2026-uav-investigation`, branch `main`, at commit `92b0fd6f86f9497a0d76cfba47e20d610653c2d6`.
+- Earlier packages available: DATA (Information quality), `NEW-SYNTHETIC-20261105-R2`, from Cycle 1.
+- My initial prediction and reason:
+- Exact files and test IDs used: `evidence/01_energy/README.md`, `evidence/01_energy/test_conditions.csv`, and `evidence/01_energy/E01_telemetry.csv` through `E06_telemetry.csv`. Also checked `MISSION.md` and `prompts/ENERGY.md`. Test IDs: E01–E06. E01, E02, E03, E04 and E06 each contain 121 samples from 0 to 1200 seconds at 10-second intervals. E05 contains 61 samples from 0 to 600 seconds at 10-second intervals.
+- Relevant test conditions and why they match the mission: The mission planning inputs are 600 g payload, 3 m/s nominal wind, 300 Wh usable battery energy (required reserve already excluded), and 10 minutes of nonproductive time. The full mission also specifies a 1.60 km² area, 8 m/s planned ground speed and 200 m effective image swath. E01 and E02 match the mission payload and wind conditions and have complete 1200-second mapping records. E05 has the same payload and wind but only a 600-second partial record. E03 uses 6 m/s wind; E04 uses 300 g payload; E06 uses 900 g payload.
+- Evidence excluded or qualified, and why: E03, E04 and E06 have complete records but differ from the mission conditions, so they are not direct mission-condition matches. E05 matches payload and wind but ends at 600 seconds; its partial interval must not be silently extended or treated as a complete test. The README states that all telemetry is synthetic teaching data. The paired voltage/current channels are newly authored illustrative signals whose product preserves the previous lesson's archived power trace. They are not recovered original channels or validated battery behaviour. All logged samples are from the mapping phase, not a full discharge test.
+- Analysis or plot used, with units: A calculation from the supplied paired channels used instantaneous power, `P = V × I` (watts), followed by trapezoidal integration over each recorded interval (watt-seconds divided by 3600 to obtain Wh). Calculated results: E01 450 W / 150.00 Wh; E02 462 W / 154.00 Wh; E03 525 W / 175.00 Wh; E04 390 W / 130.00 Wh; E05 490 W / 81.67 Wh over its 600-second partial interval; E06 550 W / 183.33 Wh. These are calculations from synthetic teaching signals, not validated aircraft performance.
+- One calculation or observation I checked myself:
+- AI suggestion I accepted or rejected, and my reason:
+- Current recommendation:
+- What changed my mind, or why it did not change:
+- Remaining unknown and most useful next check:
 
 ## Cycle 3
 Use the same fields. Show what passes, fails or remains unknown under the instructor's changed condition. Do not erase an earlier result just because the mission changed.
