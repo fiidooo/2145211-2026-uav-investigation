@@ -5,7 +5,7 @@ Keep this file free of names, IDs, grades and private assessment answers. Use it
 ## Cycle 1
 - Released package and version:
 - Earlier packages available:
-- My initial prediction and reason:
+- My initial prediction and reason: I would prioritise the DATA package because it could help address several unknowns about whether the UAV's observations can answer the flood-response team's road-access question. Collecting images alone does not establish whether a road is safe or passable; the evidence needs to show whether the observations are useful and reliable for that purpose.
 - Exact files and test IDs used:
 - Relevant test conditions and why they match the mission:
 - Evidence excluded or qualified, and why:
